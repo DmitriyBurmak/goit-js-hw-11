@@ -19,7 +19,7 @@ export function createGallery(images) {
         return `
         <li class="gallery-item">
           <a href="${largeImageURL}">
-            <img src="${webformatURL}" alt="${tags}" />
+            <img class="gallery-img" src="${webformatURL}" alt="${tags}" />
             <div class="info">
               <p class="info-item">
                 <b>Likes:</b> ${likes}
