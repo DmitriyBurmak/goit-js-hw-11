@@ -9,22 +9,43 @@
 @import url('./base.css');
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
 }
 
 .form {
   display: flex;
-  margin-bottom: 20px;
+  justify-content: center;
+  margin: 36px;
+  gap: 8px;
 }
 
 input {
-  padding: 10px;
-  margin-right: 10px;
-  width: 200px;
+  padding: 0;
+  padding-left: 16px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 272px;
+  height: 40px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #808080;
 }
 
 button {
-  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 91px;
+  height: 40px;
+  background-color: #4e75ff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
 }
 
 .loader {
